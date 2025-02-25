@@ -1,0 +1,15 @@
+h1{
+    text-align: center;
+    box-sizing: border-box;
+    background-color: cornflowerblue;
+    border: 2px solid black;
+    transition-duration: 2s;
+    transition-timing-function: steps(3);
+}
+
+h1:hover{
+    background-color: red;
+}
+h1:active{
+    background-color: green;
+}
